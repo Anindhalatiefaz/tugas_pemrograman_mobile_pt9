@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="0dp"
+    android:layout_marginEnd="0dp"
+    android:background="#ffffff"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".MainLauncherSplashLogo">
+
+    <ImageView
+        android:id="@+id/logo_alz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="60dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/logo_alz" />
+
+    <Button
+        android:id="@+id/btnHello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="@string/button_label_pro_hello_toast"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="@string/button_label_pro_count"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnSianida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="@string/button_label_pro_sianida"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnTwoActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="@string/button_label_pro_two_activity"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnAlarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:onClick="createAlarm"
+        android:text="@string/button_label_pro_set_alarm"
+        android:backgroundTint="@color/colorPrimary"/>
+</LinearLayout>
